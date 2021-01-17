@@ -46,7 +46,7 @@ const HeaderComponent = ({ className }) => (
                       {({ changeToEn }) => (
                         <Flag src={ukFlag} name="en" onClick={() => changeToEn()} />
                       )}
-                    </IntContextConsumer> */}
+                    </IntContextConsumer>}
                     <Link to="/" style={{ textDecoration: "none" }}>
                       <Main>
                         {int === "en"
