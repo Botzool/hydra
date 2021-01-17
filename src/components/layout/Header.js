@@ -37,7 +37,7 @@ const HeaderComponent = ({ className }) => (
                     <img src={ecdyonurus} alt="logo" />
                   </ImgCont>
                   <Muni>
-                    {/* <IntContextConsumer>
+                    {window.location.href.includes("projects/project3") && <IntContextConsumer>
                       {({ changeToCz }) => (
                         <Flag src={czFlag} name="cz" onClick={() => changeToCz()} />
                       )}
